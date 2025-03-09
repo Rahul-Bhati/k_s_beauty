@@ -2,12 +2,12 @@ import type React from "react"
 import "./globals.css"
 import { Inter } from "next/font/google"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "K.S. Beauty | High-Quality Cosmetics & Jewelry",
   description: "Premium cosmetics and imitation jewelry designed for modern women.",
-  keywords: "beauty, cosmetics, jewelry, fashion, women, makeup",
+  keywords: "beauty, cosmetics, jewelry, fashion, women, makeup, thane, mumbai, shop no 1, ",
   author: "K.S. Beauty",
   openGraph: {
     title: "K.S. Beauty - Premium Cosmetics & Jewelry",
@@ -39,9 +39,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet" /> */}
 
         <link rel="icon" href="/logo.jpg?round" type="image/png" sizes="32x32" />
         {/* Favicon */}

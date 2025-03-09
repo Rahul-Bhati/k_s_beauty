@@ -8,12 +8,6 @@ import Link from 'next/link';
 import { FaWhatsapp, FaInstagram, FaEnvelope, FaPhone } from 'react-icons/fa';
 
 const Home = () => {
-  const products = [
-    { name: "Gold Ring", price: "₹30,000", originalPrice: "₹1,800", image: "4.jpg", badge: "New" },
-    { name: "Diamond Studs", price: "₹85,500", originalPrice: "₹1,100", image: "5.jpg", badge: "10% OFF" },
-    { name: "Heart Bracelet", price: "₹2,20,000", image: "6.jpeg" },
-    { name: "Gold Rose Earrings", price: "₹26,000", originalPrice: "₹30,000", image: "7.jpeg", badge: "New" },
-  ];
 
   const featuredCollections = [
     { title: "Diamond’s Haven", desc: "Mesmerising jewellery collection...", src: "dimond.png" },
@@ -146,10 +140,6 @@ const Home = () => {
               <img className="w-48 h-38 mt-4 rounded-md self-center" src={product.src} alt={product.title} />
               <div className="bg-[#1d1917] w-full mt-4 p-4 rounded-lg text-center">
                 <h3 className="text-white text-xl font-['Bodoni Moda']">{product.title}</h3>
-                {/* <div className="text-white text-lg font-['Satoshi']">{product.price}</div>
-                {product.originalPrice && (
-                  <div className="text-[#707070] text-sm line-through">{product.originalPrice}</div>
-                )} */}
               </div>
             </motion.div>
           ))}
